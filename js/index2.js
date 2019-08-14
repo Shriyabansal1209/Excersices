@@ -1,0 +1,10 @@
+var first_name;
+first_name = 'Shriya';
+var last_name;
+last_name = 'Bansal';
+var age;
+age = 28;
+var address;
+address = '136 Market Ave';
+var DateOfBirth;
+DateOfBirth = '11/03/1992';

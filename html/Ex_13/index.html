@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Create User</title>
+</head>
+<body>
+    <h1> Create User</h1>
+    <hr>
+    <form method="get" enctype="application/x-www-form-urlencoded">
+      <label for="username">User Name:</label>
+      <input type="text" name="username" placeholder="UserName" id="username">
+      <label for="movie"> Select your favourite Movie:</label>
+      <select name="movie" id="movie">
+          <option value="deadpool">Deadpool</option>
+          <option value="batman_vs_superman">Batman v Superman</option>
+          <option value="civil_war">Captain America: Civil War</option>
+          <option value="doctor_strange">Doctor Strange</option>
+          <option value="suicide_squad">Suicide Squad</option>
+          <option value="apocalypse">X-Men: Apocalypse</option>
+          <option value="gotg_vol2">Guardians of the Galaxy Vol </option>
+          <option value="justice_league">Justice League</option>
+          <option value="logan">Logan</option>
+          <option value="homecoming">Spider-Man: Homecoming</option>
+          <option value="wonder_woman" selected> Wonder Woman </option>
+          <option value="thor_ragnarok">Thor: Ragnarok</option>
+          <option value="black_panther">Black Panther</option>
+      </select>
+      <br>
+      <br>
+      <br>
+      <label for="bio">User bio:</label>
+      <br>
+      <textarea id="bio" name="bio" placeholder="Describe yourself" cols="30" rows="15"></textarea>
+      <br>
+      <br>
+      <br>
+      <label for="img_avatar">Upload your avatar image:</label>
+      <input type="file" id="img_avatar" name="image">
+      <br>
+      <br>
+      <br>   
+      <label for="clear">To clear the above form:</label>    
+      <button value="clear" id="clear" name="clear">Clear Form</button>
+      <br>
+      <br>
+      <br>
+      <label for="create">To add user:</label>    
+      <button value="create" id="create"name="adduser">Add New user</button> 
+    </form>
+</body>
+</html>

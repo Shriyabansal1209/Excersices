@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Selectors</title>
+    <style>
+        *{
+            font-size: 16px;
+        }
+        .red{
+            color: red;
+            font-size: 1em;
+        }
+        .purple{
+            color: purple;
+        }
+        .orange{
+            color: orange;
+        }
+        .green{
+            color: chartreuse;
+            font-size: 2em;
+        }
+        .pink{
+            color: deeppink;
+        }
+        h1::first-letter{
+            color: black;
+        }
+        ol::first-line {
+           color: black;
+        }
+        article section foot p + p  {
+         color: goldenrod;
+        }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a class="purple" href="http://facebook.com" target="_blank">Facebook</a>
+      <a class="red" href="http://google.com" target="_blank">Google</a>
+      <a class="red" href="http://yahoo.com" target="_blank">Yahoo</a>
+    </nav>
+    <header>
+      <h1 class="green">CSS Selectors site</h1>
+      <hr>
+    </header>
+    <article>
+      <section>
+        <h1 class="orange">Great news, we're learning CSS selectors!!</h1>
+        <ol class="pink">
+          <li>ID Selector</li>
+          <li>Class Selector</li>
+          <li>Shared CSS code between selectors</li>
+          <li>Universal selector</li>
+          <li>Attribute selectors</li>
+          <li>Pseudo-classes selector</li>
+          <li>Descendant selectors</li>
+          <li>Child selectors</li>
+          <li>Pseudo-elements</li>
+          <li>Adjacent sibling combinator</li>
+          <li>General sibling combinator</li>
+        </ol>
+        <foot>
+          <p>News footer</p>
+          <p>News footer</p>
+        </foot>
+      </section>
+    </article>
+    <foot>
+      <hr>
+      <p>Site footer</p>
+      <hr>
+    </foot>
+  </body>
+</html>

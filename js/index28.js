@@ -1,0 +1,11 @@
+const nine = 9;
+console.log('9 times 1 equals', nine * 1);
+console.log('9 times 2 equals', nine * 2);
+console.log('9 times 3 equals', nine * 3);
+console.log('9 times 4 equals', nine * 4);
+console.log('9 times 5 equals', nine * 5);
+console.log('9 times 6 equals', nine * 6);
+console.log('9 times 7 equals', nine * 7);
+console.log('9 times 8 equals', nine * 8);
+console.log('9 times 9 equals', nine * 9);
+console.log('9 times 10 equals', nine * 10);
